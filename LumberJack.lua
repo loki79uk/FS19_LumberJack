@@ -215,7 +215,7 @@ function LumberJack:update(dt)
 	-- DESTROY SMALL LOGS WHEN USING THE CHAINSAW --
 	if g_currentMission.player:hasHandtoolEquipped() then
 		local hTool = g_currentMission.player.baseInformation.currentHandtool
-		
+	
 		if hTool ~= nil and hTool.ringSelector ~= nil then
 			if LumberJack.ringSelector == 0 then
 				-- CREATE EXTRA RING SELECTOR
@@ -381,6 +381,12 @@ function LumberJack:update(dt)
 				end
 
 				LumberJack.useChainsawFlag = false
+			end
+		else
+			if LumberJack.ringSelector ~= 0 then
+				if getVisibility(LumberJack.ringSelector) then
+					setVisibility(LumberJack.ringSelector, false)
+				end
 			end
 		end
 	else

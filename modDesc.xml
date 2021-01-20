@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="53">
 	<author>loki_79</author>
-    <version>2.0.0.0</version>
+    <version>2.0.1.0</version>
 	<title>
         <en>LumberJack</en>
         <de>Holzfäller</de>
@@ -27,12 +27,9 @@ Features:
 - Chainsaw can remove stumps (grind for 3 seconds)
 
 Changelog:
-v1.1.0.0 - Added key selection for toggle super strength]
-v1.2.0.0 - Added stump grinding ability for chainsaw
-v1.2.1.0 - Fixed super strength bug for clients in multiplayer
-v1.3.0.0 - Resolved conflicts with other mods
-v1.3.1.0 - Fixed a problem when picking up egg boxes in multiplayer
-v2.0.0.0 - Implemented double tap key press to toggle strength]]>
+v2.0.0.0 - Implemented double tap key press to toggle strength
+v2.0.1.0 - Removed ring selector from some other hand tools
+]]>
 </en>
 <de><![CDATA[Dieser Mod fügt einige Verbesserungen der Lebensqualität hinzu, um das Abholzen von Bäumen mit der Kettensäge etwas einfacher zu machen, behält aber immer noch genug Realismus, um die Bezahlung für den Verkauf des Holzes zu verdienen.  Die Kettensäge kann nun Baumstümpfe schleifen, und der 'Superstärke'-Modus bietet auch die Möglichkeit, Bäume vollständig zu löschen.
 
@@ -53,12 +50,9 @@ Merkmale:
 - Kettensäge kann Stümpfe entfernen (3 Sekunden schleifen)
 
 Changelog:
-v1.1.0.0 - Schlüsselauswahl zum Umschalten der Superstärke hinzugefügt
-v1.2.0.0 - Stumpfschleiffunktion für Kettensäge hinzugefügt
-v1.2.1.0 - Superstärke-Fehler für Clients im Mehrspielermodus behoben
-v1.3.0.0 - Konflikte mit anderen Mods gelöst
-v1.3.1.0 - Ein Problem beim Aufnehmen von Eierschachteln im Mehrspieler-Modus wurde behoben
-v2.0.0.0 - Doppelter Tastendruck zum Umschalten der Stärke implementiert]]>
+v2.0.0.0 - Doppelter Tastendruck zum Umschalten der Stärke implementiert
+v2.0.1.0 - Entfernter Ringwähler von einigen anderen Handwerkzeugen
+]]>
 </de>
 <fr><![CDATA[Ce mod ajoute quelques améliorations de la qualité de vie pour faciliter le défrichage des arbres à la tronçonneuse, tout en conservant suffisamment de réalisme pour mériter le paiement de la vente du bois.  La tronçonneuse peut désormais broyer des souches, et le mode "super-force" permet également de supprimer complètement des arbres.
 
@@ -79,12 +73,9 @@ Caractéristiques:
 - La tronçonneuse permet d'enlever les souches (broyage pendant 3 secondes)
 
 Changelog:
-v1.1.0.0 - Ajout d'une sélection de clés pour basculer la super force
-v1.2.0.0 - Ajout d'une capacité de broyage de souches pour la tronçonneuse
-v1.2.1.0 - Correction d'un bug de super force pour les clients en multijoueur
-v1.3.0.0 - Résoudre les conflits avec d'autres mods
-v1.3.1.0 - Correction d'un problème de ramassage des boîtes à œufs en mode multijoueur
-v2.0.0.0 - Mise en place d'une double pression sur les touches pour changer la force]]>
+v2.0.0.0 - Mise en place d'une double pression sur les touches pour changer la force
+v2.0.1.0 - A retiré le sélecteur de bague de certains autres outils à main
+]]>
 </fr>
     </description>
 
