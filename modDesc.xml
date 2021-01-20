@@ -6,6 +6,7 @@
         <en>LumberJack</en>
         <de>Holzfäller</de>
         <fr>Bûcheron</fr>
+	<ru>Дровосек</ru>
     </title>
     <description>
 <en><![CDATA[This mod adds some quality of life improvements to make clearing trees with a chainsaw a little bit easier, but still retains enough realism to deserve the payment for selling the wood.  The chainsaw can now grind stumps, and the 'super-strength' mode also grants the ability to completley delete trees.
@@ -77,6 +78,31 @@ v2.0.0.0 - Mise en place d'une double pression sur les touches pour changer la f
 v2.0.1.0 - A retiré le sélecteur de bague de certains autres outils à main
 ]]>
 </fr>
+<ru><![CDATA[Этот мод добавляет некоторые улучшения качества жизни, чтобы сделать расчистку деревьев бензопилой немного проще, но при этом сохраняет достаточно реализма, 
+чтобы заслужить плату за продажу древесины. Бензопила теперь может измельчать пни, а режим «суперсилы» также даёт возможность полностью удалять деревья.
+
+**НОВИНКА** метод управления для переключения суперсилы:
+- Удерживайте клавишу ALT для временного увеличения силы
+- Дважды нажмите клавишу ALT, чтобы включить/выключить суперсилу
+
+Функции:
+- маркер прицеливания для постоянного определения точки прицеливания бензопилы
+- легко измельчайте небольшие куски дерева, как если бы вы удаляли верхние ветки
+- резка бензопилой в 2 раза быстрее
+- в 2 раза увеличен радиус действия бензопилы
+- в 2 раза увеличена дальность подбора предметов
+- рубите деревья в любом месте карты, даже на земле, которую нельзя купить (например, в магазине)
+- отображение массы просматриваемых объектов в меню F1
+- включение режима «сверхсильность» с помощью ALT и увеличение яркости маркера руки, чтобы указать, когда он активен
+- суперсила адаптивна (удерживаемая масса объекта в 5 раз)
+- бензопила может убирать пни (измельчать 3 секунды)
+- работает в мультиплеере
+
+Журнал изменений:
+v2.0.0.0 - Реализовано двойное нажатие клавиши для переключения силы
+v2.0.1.0 - Удалён кольцевой маркер у некоторых других ручных инструментов
+]]>
+</ru>
     </description>
 
 	<multiplayer supported="true" />
@@ -98,11 +124,13 @@ v2.0.1.0 - A retiré le sélecteur de bague de certains autres outils à main
 			<en>Super Strength:  Hold=temporary  DoubleTap=on/off</en>
 			<de>Superstärke:  Halten=temporärer  Doppeltippen=an/aus</de>
 			<fr>Super Force:  Hold=temporaire  Double-Coup=marche/arrêt</fr>
+			<ru>Суперсила: Удержать=временно ДаблТап=Вкл/Выкл</ru>
 		</text>
 		<text name="input_LUMBERJACK_STRENGTH">
 			<en>LumberJack: Super Strength</en>
 			<de>Holzfäller: Superstärke</de>
 			<fr>Bûcheron: Super Force</fr>
+			<ru>Дровосек: Суперсила</ru>
 		</text>
 	</l10n>
 </modDesc>
