@@ -6,7 +6,7 @@
         <en>LumberJack</en>
         <de>Holzfäller</de>
         <fr>Bûcheron</fr>
-	<ru>Дровосек</ru>
+		<ru>Дровосек</ru>
     </title>
     <description>
 <en><![CDATA[This mod adds some quality of life improvements to make clearing trees with a chainsaw a little bit easier, but still retains enough realism to deserve the payment for selling the wood.  The chainsaw can now grind stumps, and the 'super-strength' mode also grants the ability to completley delete trees.
@@ -131,6 +131,18 @@ v2.0.1.0 - Удалён кольцевой маркер у некоторых д
 			<de>Holzfäller: Superstärke</de>
 			<fr>Bûcheron: Super Force</fr>
 			<ru>Дровосек: Суперсила</ru>
+		</text>
+		<text name="text_MASS">
+			<en>Mass</en>
+			<de>Masse</de>
+			<fr>Masse</fr>
+			<ru>Масса</ru>
+		</text>
+		<text name="text_KG">
+			<en>kg</en>
+			<de>kg</de>
+			<fr>kg</fr>
+			<ru>кг</ru>
 		</text>
 	</l10n>
 </modDesc>

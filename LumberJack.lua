@@ -193,7 +193,7 @@ function LumberJack:update(dt)
 	if g_currentMission.player.isObjectInRange then
 		-- Display Mass of LAST OBSERVED OBJECT in 'F1' Help Menu
 		if g_currentMission.player.isEntered and not g_gui:getIsGuiVisible() and not g_currentMission.player:hasHandtoolEquipped() then
-			g_currentMission:addExtraPrintText(string.format("Mass: %.1f kg", 1000*g_currentMission.player.lastFoundObjectMass))
+			g_currentMission:addExtraPrintText(g_i18n:getText("text_MASS") .. string.format(": %.1f ", 1000*g_currentMission.player.lastFoundObjectMass) .. g_i18n:getText("text_KG"))
 		end
 	end
 
@@ -253,6 +253,7 @@ function LumberJack:update(dt)
 								DeleteShapeEvent.sendEvent(splitShape)
 							else
 							--print("SINGLE PLAYER")
+								g_currentMission:removeKnownSplitShape(splitShape)
 								delete(splitShape)
 							end
 						end
@@ -367,6 +368,7 @@ function LumberJack:update(dt)
 							DeleteShapeEvent.sendEvent(LumberJack.splitShape)
 						else
 						--print("SINGLE PLAYER")
+							g_currentMission:removeKnownSplitShape(splitShape)
 							delete(LumberJack.splitShape)
 						end
 						LumberJack.splitShape = 0
