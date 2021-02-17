@@ -219,7 +219,8 @@ function LumberJack:update(dt)
 		if hTool ~= nil and hTool.ringSelector ~= nil then
 			if LumberJack.ringSelector == 0 then
 				-- CREATE EXTRA RING SELECTOR
-				local filename = 'data/firstPerson/chainsaws/chainsawRingSelector.i3d'
+				local filename = hTool.ringSelectorFilename
+				filename = string.gsub(filename, "%$", "")
 				local i3dNode = g_i3DManager:loadSharedI3DFile(filename, hTool.baseDirectory, false, false, false)
 				if i3dNode ~= 0 then
 					LumberJack.ringSelector = getChildAt(i3dNode, 0)
