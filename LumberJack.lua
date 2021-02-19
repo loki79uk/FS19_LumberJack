@@ -219,9 +219,12 @@ function LumberJack:update(dt)
 		if hTool ~= nil and hTool.ringSelector ~= nil then
 			if LumberJack.ringSelector == 0 then
 				-- CREATE EXTRA RING SELECTOR
-				local filename = hTool.ringSelectorFilename
-				filename = string.gsub(filename, "%$", "")
-				local i3dNode = g_i3DManager:loadSharedI3DFile(filename, hTool.baseDirectory, false, false, false)
+				--local filename = hTool.ringSelectorFilename
+				--local baseDirectory = hTool.baseDirectory
+				local filename = "data/firstPerson/chainsaws/chainsawRingSelector.i3d"
+				local baseDirectory = ''
+				
+				local i3dNode = g_i3DManager:loadSharedI3DFile(filename, baseDirectory, false, false, false)
 				if i3dNode ~= 0 then
 					LumberJack.ringSelector = getChildAt(i3dNode, 0)
 					setVisibility(LumberJack.ringSelector, true)
@@ -263,7 +266,7 @@ function LumberJack:update(dt)
 				end
 			else
 				--print("CHAINSAW NOT CUTTING")				
-				if hTool.ringSelector ~= nil and hTool.ringSelector ~= 0 then
+				if hTool.ringSelector ~= nil and hTool.ringSelector ~= 0 and LumberJack.ringSelector ~= 0 then
 					if getVisibility(hTool.ringSelector) then
 						setVisibility(LumberJack.ringSelector, false)
 					else
