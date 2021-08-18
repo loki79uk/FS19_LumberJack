@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="53">
 	<author>loki_79</author>
-    <version>2.0.2.0</version>
+    <version>2.0.3.0</version>
 	<title>
         <en>LumberJack</en>
         <de>Holzfäller</de>
@@ -31,6 +31,7 @@ Changelog:
 v2.0.0.0 - Implemented double tap key press to toggle strength
 v2.0.1.0 - Removed ring selector from some other hand tools
 v2.0.2.0 - Added support for electric chainsaw mod
+v2.0.3.0 - Fixed a bug where super-strength key binding was lost
 ]]>
 </en>
 <de><![CDATA[Dieser Mod fügt einige Verbesserungen der Lebensqualität hinzu, um das Abholzen von Bäumen mit der Kettensäge etwas einfacher zu machen, behält aber immer noch genug Realismus, um die Bezahlung für den Verkauf des Holzes zu verdienen.  Die Kettensäge kann nun Baumstümpfe schleifen, und der 'Superstärke'-Modus bietet auch die Möglichkeit, Bäume vollständig zu löschen.
@@ -55,6 +56,7 @@ Changelog:
 v2.0.0.0 - Doppelter Tastendruck zum Umschalten der Stärke implementiert
 v2.0.1.0 - Entfernter Ringwähler von einigen anderen Handwerkzeugen
 v2.0.2.0 - Unterstützung für elektrischen Kettensägen-Mod hinzugefügt
+v2.0.3.0 - Ein Fehler wurde behoben, bei dem die Bindung der Superstärke-Tasten verloren ging
 ]]>
 </de>
 <fr><![CDATA[Ce mod ajoute quelques améliorations de la qualité de vie pour faciliter le défrichage des arbres à la tronçonneuse, tout en conservant suffisamment de réalisme pour mériter le paiement de la vente du bois.  La tronçonneuse peut désormais broyer des souches, et le mode "super-force" permet également de supprimer complètement des arbres.
@@ -79,6 +81,7 @@ Changelog:
 v2.0.0.0 - Mise en place d'une double pression sur les touches pour changer la force
 v2.0.1.0 - A retiré le sélecteur de bague de certains autres outils à main
 v2.0.2.0 - Ajout d'un support pour le mod de scie à chaîne électrique
+v2.0.3.0 - Correction d'un bug qui entraînait la perte de la liaison des touches de super-force
 ]]>
 </fr>
 <ru><![CDATA[Этот мод добавляет некоторые улучшения качества жизни, чтобы сделать расчистку деревьев бензопилой немного проще, но при этом сохраняет достаточно реализма, 
@@ -105,6 +108,7 @@ v2.0.2.0 - Ajout d'un support pour le mod de scie à chaîne électrique
 v2.0.0.0 - Реализовано двойное нажатие клавиши для переключения силы
 v2.0.1.0 - Удалён кольцевой маркер у некоторых других ручных инструментов
 v2.0.2.0 - Добавлена поддержка мода электропилы
+v2.0.3.0 - Исправлена ошибка, при которой терялась сверхпрочная привязка клавиш
 ]]>
 </ru>
     </description>
